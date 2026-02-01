@@ -16,7 +16,7 @@ import logging
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 from dotenv import load_dotenv
-from keep_alive import keep_alive
+from info.keep_alive import keep_alive
 
 load_dotenv()
 keep_alive()

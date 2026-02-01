@@ -1,7 +1,13 @@
-from flask import Flask
+from flask import Flask, request, jsonify
 from threading import Thread
 
 app = Flask(__name__)
+
+# Importar páginas
+from info.pages.terms import TERMS_HTML
+from info.pages.privacy import PRIVACY_HTML
+from info.pages.verify import VERIFY_HTML
+from info.pages.interactions import INTERACTIONS_PAGE_HTML
 
 @app.route("/")
 def home():
@@ -565,6 +571,32 @@ def home():
 </body>
 </html>
     """
+
+@app.route("/terms")
+@app.route("/terms-of-service")
+def terms():
+    return TERMS_HTML
+
+@app.route("/privacy")
+@app.route("/privacy-policy")
+def privacy():
+    return PRIVACY_HTML
+
+@app.route("/verify")
+@app.route("/verify-user")
+def verify():
+    return VERIFY_HTML
+
+@app.route("/api/interactions", methods=['GET', 'POST'])
+def interactions():
+    if request.method == 'GET':
+        return INTERACTIONS_PAGE_HTML
+    
+    data = request.json
+    if data and data.get('type') == 1:
+        return jsonify({'type': 1})
+    
+    return jsonify({'type': 4, 'data': {'content': '💖 DESFCITA Bot está procesando...'}})
 
 def run():
     app.run(host="0.0.0.0", port=10000)
