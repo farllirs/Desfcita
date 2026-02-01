@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="API Documentation - DESFCITA Bot">
+    <title>API — DESFCITA</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <div class="icon-large">⚡</div>
+            <h1>Interactions API</h1>
+            <p class="subtitle">Endpoint para Discord Interactions</p>
+            
+            <div class="code-box">
+                POST https://desfcita-1.onrender.com/api/interactions
+            </div>
+            
+            <p style="text-align: center;">Este endpoint recibe y procesa las interacciones de Discord.</p>
+            
+            <div class="status-badge" style="display: flex; justify-content: center;">
+                <div class="status-dot"></div>
+                <span class="status-text">Endpoint Activo</span>
+            </div>
+            
+            <div class="info-box">
+                <p style="margin: 0; font-size: 0.85rem; text-align: center;">
+                    Verificación de firmas Ed25519 habilitada para seguridad.
+                </p>
+            </div>
+            
+            <h2><span class="icon">✦</span> Tipos soportados</h2>
+            <ul>
+                <li>PING (Type 1) - Verificación del endpoint</li>
+                <li>APPLICATION_COMMAND (Type 2) - Slash commands</li>
+                <li>MESSAGE_COMPONENT (Type 3) - Botones y selects</li>
+                <li>MODAL_SUBMIT (Type 5) - Formularios</li>
+            </ul>
+            
+            <div class="btn-group">
+                <a href="index.html" class="btn btn-primary">← Volver al inicio</a>
+            </div>
+            
+            <div class="footer">
+                DESFCITA Bot · Discord API v10
+            </div>
+        </div>
+    </div>
+</body>
+</html>
