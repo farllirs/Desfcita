@@ -272,6 +272,67 @@ def home():
             text-shadow: 0 2px 10px rgba(255, 105, 180, 0.3);
         }
         
+        /* Botones de navegación */
+        .nav-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+            animation: fade-in-up 1s ease-out 1.6s both;
+        }
+        
+        .nav-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 24px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 182, 193, 0.5);
+            border-radius: 50px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .nav-btn:hover {
+            background: rgba(255, 105, 180, 0.4);
+            border-color: rgba(255, 105, 180, 0.8);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 105, 180, 0.4);
+        }
+        
+        .nav-btn .btn-icon {
+            font-size: 1.2rem;
+        }
+        
+        .verify-btn {
+            background: linear-gradient(135deg, rgba(255, 20, 147, 0.5), rgba(255, 105, 180, 0.5));
+            border-color: rgba(255, 20, 147, 0.7);
+            padding: 16px 30px;
+            font-size: 1.05rem;
+        }
+        
+        .verify-btn:hover {
+            background: linear-gradient(135deg, rgba(255, 20, 147, 0.7), rgba(255, 105, 180, 0.7));
+            box-shadow: 0 15px 40px rgba(255, 20, 147, 0.5);
+        }
+        
+        @media (max-width: 768px) {
+            .nav-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav-btn {
+                width: 100%;
+                max-width: 250px;
+                justify-content: center;
+            }
+        }
+        
         .sparkle {
             position: absolute;
             width: 8px;
@@ -524,6 +585,26 @@ def home():
                     <div class="feature-title">Configuración 🌷</div>
                     <div class="feature-desc">Personalizable completamente a tu gusto</div>
                 </div>
+            </div>
+            
+            <!-- Botones de navegación -->
+            <div class="nav-buttons">
+                <a href="/verify-user" class="nav-btn verify-btn">
+                    <span class="btn-icon">🔐</span>
+                    <span class="btn-text">Verificar Cuenta</span>
+                </a>
+                <a href="/terms-of-service" class="nav-btn">
+                    <span class="btn-icon">📜</span>
+                    <span class="btn-text">Términos</span>
+                </a>
+                <a href="/privacy-policy" class="nav-btn">
+                    <span class="btn-icon">🔒</span>
+                    <span class="btn-text">Privacidad</span>
+                </a>
+                <a href="/api/interactions" class="nav-btn">
+                    <span class="btn-icon">⚡</span>
+                    <span class="btn-text">API</span>
+                </a>
             </div>
             
             <div class="footer">
