@@ -22,7 +22,7 @@ CLIENT_ID = os.getenv('DISCORD_CLIENT_ID', '')
 CLIENT_SECRET = os.getenv('DISCORD_CLIENT_SECRET', '')
 PUBLIC_KEY = os.getenv('DISCORD_PUBLIC_KEY', '')
 BOT_TOKEN = os.getenv('DISCORD_TOKEN', '')
-REDIRECT_URI = os.getenv('DISCORD_REDIRECT_URI', 'https://desfcita.onrender.com/callback')
+REDIRECT_URI = os.getenv('DISCORD_REDIRECT_URI', 'https://desfcita-1.onrender.com/callback')
 
 # Scopes para OAuth2
 OAUTH_SCOPES = [
