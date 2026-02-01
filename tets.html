@@ -1,11 +1,4 @@
-from flask import Flask
-from threading import Thread
 
-app = Flask(__name__)
-
-@app.route("/")
-def home():
-    return """
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -511,7 +504,7 @@ def home():
             </div>
             
             <div class="footer">
-                Made with 💖💕✨ by DESFCITA Team 🌸
+                Made with 💖💕✨ by  DEX🌸
             </div>
         </div>
     </div>
@@ -564,11 +557,3 @@ def home():
     </script>
 </body>
 </html>
-    """
-
-def run():
-    app.run(host="0.0.0.0", port=10000)
-
-def keep_alive():
-    t = Thread(target=run)
-    t.start()
