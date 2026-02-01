@@ -1,0 +1,141 @@
+[
+    {
+        "id": 1,
+        "author_id": "1461851339666624512",
+        "author_name": "desf0072",
+        "content": "El Kevin es marika",
+        "timestamp": "2026-01-19 15:43",
+        "status": "approved"
+    },
+    {
+        "id": 2,
+        "author_id": "1461851339666624512",
+        "author_name": "desf0072",
+        "content": "Amo los c4 :emoji_14:",
+        "timestamp": "2026-01-19 18:17",
+        "status": "approved"
+    },
+    {
+        "id": 3,
+        "author_id": "1461851339666624512",
+        "author_name": "desf0072",
+        "content": "Kevin es gay 100%",
+        "attachment": "https://cdn.discordapp.com/attachments/1462605938522456309/1462951085105877226/Screenshot_20260119-182129.png?ex=69700edf&is=696ebd5f&hm=891b8ffb95080be490294255aa2d5f81457f4e47743c5f4bf889bcf86f0f213d&",
+        "timestamp": "2026-01-19 18:25",
+        "status": "pending"
+    },
+    {
+        "id": 4,
+        "author_id": "1461851339666624512",
+        "author_name": "desf0072",
+        "content": "No",
+        "attachment": null,
+        "timestamp": "2026-01-19 18:28",
+        "status": "rejected"
+    },
+    {
+        "id": 5,
+        "author_id": "1461851339666624512",
+        "author_name": "desf0072",
+        "content": "Ha Davier le gustan los penes negros",
+        "attachment": null,
+        "timestamp": "2026-01-21 14:44",
+        "status": "approved"
+    },
+    {
+        "id": 6,
+        "author_id": "1172004951883522068",
+        "author_name": "vxz0645",
+        "content": "A davier le gustan los hombres",
+        "attachment": null,
+        "timestamp": "2026-01-22 08:38",
+        "status": "approved"
+    },
+    {
+        "id": 7,
+        "author_id": "1461851339666624512",
+        "content": "que a davier le gusta los hombre negros de 2 metros",
+        "attachment": null,
+        "status": "approved"
+    },
+    {
+        "id": 8,
+        "author_id": "1461851339666624512",
+        "content": "Test",
+        "attachment": "https://cdn.discordapp.com/attachments/1462605938522456309/1464277925196070933/ticket_banner.png?ex=6974e296&is=69739116&hm=cf9b87dbc653659eb90289a70967e79ca7114e771ab7374e7cf6ed0d84077fca&",
+        "status": "rejected",
+        "timestamp": "2026-01-23 10:17"
+    },
+    {
+        "id": 9,
+        "author_id": "1461851339666624512",
+        "content": "Por ah\u00ed dicen que el due\u00f1o del server tiene un canal `NSFW` y que solo se puede acceder con un rol espec\u00edfico algo haci, v\u00ed cuando creo que canal",
+        "attachment": "https://cdn.discordapp.com/attachments/1462605938522456309/1464455617665044573/Screenshot_20260123-164619.png?ex=69758813&is=69743693&hm=244fe3872b0f53ab06f0cb553ea1c3502d89320e87e5da9ac769ae6faa59b017&",
+        "status": "approved",
+        "timestamp": "2026-01-23 22:04"
+    },
+    {
+        "id": 10,
+        "author_id": "1461851339666624512",
+        "content": "```bash\n#!/data/data/com.termux/files/usr/bin/bash\n\n# \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n# \ud83c\udf38 DESFCITA BOT \u2022 SISTEMA DE INICIO AVANZADO \ud83c\udf38\n# \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nclear\n\n# \u2500\u2500\u2500 Colores \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nPINK=\"\\e[38;5;213m\"\nPURPLE=\"\\e[38;5;141m\"\nBLUE=\"\\e[38;5;81m\"\nGREEN=\"\\e[38;5;120m\"\nYELLOW=\"\\e[38;5;228m\"\nRED=\"\\e[38;5;203m\"\nRESET=\"\\e[0m\"\nBOLD=\"\\e[1m\"\n\n# \u2500\u2500\u2500 Funci\u00f3n escribir lento \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\ntypewriter () {\n  text=\"$1\"\n  delay=\"${2:-0.03}\"\n  for (( i=0; i<${#text}; i++ )); do\n    echo -ne \"${text:$i:1}\"\n    sleep $delay\n  done\n  echo\n}\n\n# \u2500\u2500\u2500 Header bonito \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho -e \"${PINK}${BOLD}\"\necho \"\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\"\necho \"\u2551        \ud83c\udf38 DESFCITA \u2022 BOT SYSTEM \ud83c\udf38            \u2551\"\necho \"\u2551        \u2728 Inicio Avanzado Ultra \u2728             \u2551\"\necho \"\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\"\necho -e \"${RESET}\"\nsleep 0.6\n\ntypewriter \"${PURPLE}\u27a4 Preparando entorno m\u00e1gico...\" 0.04\nsleep 0.5\ntypewriter \"${BLUE}\u27a4 Sincronizando m\u00f3dulos estelares...\" 0.04\nsleep 0.5\ntypewriter \"${GREEN}\u27a4 Despertando al bot...\" 0.04\nsleep 0.6\n\necho \"\"\n\n# \u2500\u2500\u2500 Barra de carga \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho -e \"${YELLOW}${BOLD}   \ud83d\ude80 CARGANDO SISTEMA${RESET}\\n\"\n\nBAR_LENGTH=28\n\nfor i in $(seq 0 $BAR_LENGTH); do\n  FILLED=$(printf \"%0.s\u25b0\" $(seq 1 $i))\n  EMPTY=$(printf \"%0.s\u25b1\" $(seq 1 $((BAR_LENGTH - i))))\n  PERCENT=$(( i * 100 / BAR_LENGTH ))\n\n  printf \"\\r${PINK}[${GREEN}%s${PURPLE}%s${PINK}] ${BLUE}%3d%% \u2728${RESET}\" \"$FILLED\" \"$EMPTY\" \"$PERCENT\"\n  sleep 0.08\ndone\n\necho -e \"\\n\\n${GREEN}${BOLD}\u2714 Sistema listo\"\necho -e \"${PINK}\u2714 Conexi\u00f3n establecida\"\necho -e \"${PURPLE}\u2714 Todo se ve precioso \ud83c\udf38${RESET}\"\nsleep 1\n\n# \u2500\u2500\u2500 Lanzar bot \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho \"\"\ntypewriter \"${BLUE}\u2728 Ejecutando bot.py ... buena suerte \ud83c\udf40\" 0.03\nsleep 0.6\necho \"\"\n\npython bot.py\n```",
+        "attachment": null,
+        "status": "pending",
+        "timestamp": "2026-01-24 05:20"
+    },
+    {
+        "id": 11,
+        "author_id": "1461851339666624512",
+        "content": "#!/data/data/com.termux/files/usr/bin/bash\n\n# \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n# \ud83c\udf38 DESFCITA BOT \u2022 SISTEMA DE INICIO AVANZADO \ud83c\udf38\n# \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\n\nclear\n\n# \u2500\u2500\u2500 Colores \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\nPINK=\"\\e[38;5;213m\"\nPURPLE=\"\\e[38;5;141m\"\nBLUE=\"\\e[38;5;81m\"\nGREEN=\"\\e[38;5;120m\"\nYELLOW=\"\\e[38;5;228m\"\nRED=\"\\e[38;5;203m\"\nRESET=\"\\e[0m\"\nBOLD=\"\\e[1m\"\n\n# \u2500\u2500\u2500 Funci\u00f3n escribir lento \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\ntypewriter () {\n  text=\"$1\"\n  delay=\"${2:-0.03}\"\n  for (( i=0; i<${#text}; i++ )); do\n    echo -ne \"${text:$i:1}\"\n    sleep $delay\n  done\n  echo\n}\n\n# \u2500\u2500\u2500 Header bonito \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho -e \"${PINK}${BOLD}\"\necho \"\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\"\necho \"\u2551        \ud83c\udf38 DESFCITA \u2022 BOT SYSTEM \ud83c\udf38            \u2551\"\necho \"\u2551        \u2728 Inicio Avanzado Ultra \u2728             \u2551\"\necho \"\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\"\necho -e \"${RESET}\"\nsleep 0.6\n\ntypewriter \"${PURPLE}\u27a4 Preparando entorno m\u00e1gico...\" 0.04\nsleep 0.5\ntypewriter \"${BLUE}\u27a4 Sincronizando m\u00f3dulos estelares...\" 0.04\nsleep 0.5\ntypewriter \"${GREEN}\u27a4 Despertando al bot...\" 0.04\nsleep 0.6\n\necho \"\"\n\n# \u2500\u2500\u2500 Barra de carga \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho -e \"${YELLOW}${BOLD}   \ud83d\ude80 CARGANDO SISTEMA${RESET}\\n\"\n\nBAR_LENGTH=28\n\nfor i in $(seq 0 $BAR_LENGTH); do\n  FILLED=$(printf \"%0.s\u25b0\" $(seq 1 $i))\n  EMPTY=$(printf \"%0.s\u25b1\" $(seq 1 $((BAR_LENGTH - i))))\n  PERCENT=$(( i * 100 / BAR_LENGTH ))\n\n  printf \"\\r${PINK}[${GREEN}%s${PURPLE}%s${PINK}] ${BLUE}%3d%% \u2728${RESET}\" \"$FILLED\" \"$EMPTY\" \"$PERCENT\"\n  sleep 0.08\ndone\n\necho -e \"\\n\\n${GREEN}${BOLD}\u2714 Sistema listo\"\necho -e \"${PINK}\u2714 Conexi\u00f3n establecida\"\necho -e \"${PURPLE}\u2714 Todo se ve precioso \ud83c\udf38${RESET}\"\nsleep 1\n\n# \u2500\u2500\u2500 Lanzar bot \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\necho \"\"\ntypewriter \"${BLUE}\u2728 Ejecutando bot.py ... buena suerte \ud83c\udf40\" 0.03\nsleep 0.6\necho \"\"\n\npython bot.py",
+        "attachment": null,
+        "status": "pending",
+        "timestamp": "2026-01-24 05:21"
+    },
+    {
+        "id": 12,
+        "author_id": "1461851339666624512",
+        "content": "Test",
+        "attachment": "https://cdn.discordapp.com/attachments/1462605938522456309/1464565894582636675/Robux_2025_white.webp?ex=6975eec7&is=69749d47&hm=0465cfe3aac95540bbbf1542c355ab604bd95e887450152e8d569a00ce81cc3a&",
+        "status": "rejected",
+        "timestamp": "2026-01-24 05:22"
+    },
+    {
+        "id": 13,
+        "author_id": "1461851339666624512",
+        "content": "https://www.tiktok.com/@sanzxdddn/video/7563074456164289799?_r=1&u_code=dkg200hf8jhdf6&preview_pb=0&sharer_language=es&_d=f138gl7ak29eka&share_item_id=7563074456164289799&source=h5_m&timestamp=1767767525&user_id=7006093063123125253&sec_user_id=MS4wLjABAAAAYtKyKMhIDcJ3shPRc4YY96ihAb6n-OqBB86gC0w9YQMUUP7Yb-v3aUUeyRGS2Kp9&item_author_type=2&social_share_type=0&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7587852211213780744&share_link_id=72a6a26f-ddcf-47c5-8e1d-9fe8cd4919a1&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b2001&link_reflow_popup_iteration_sharer=%7B%22click_empty_to_play%22%3A1%2C%22dynamic_cover%22%3A1%2C%22follow_to_play_duration%22%3A-1.0%2C%22profile_clickable%22%3A1%7D&enable_checksum=1",
+        "attachment": null,
+        "status": "rejected",
+        "timestamp": "2026-01-24 20:25"
+    },
+    {
+        "id": 14,
+        "author_id": "1461851339666624512",
+        "content": "Prueba de mensaje 1.)",
+        "attachment": null,
+        "status": "approved",
+        "timestamp": "2026-01-24 20:52"
+    },
+    {
+        "id": 15,
+        "author_id": "1461851339666624512",
+        "content": "Test test test",
+        "attachment": null,
+        "status": "rejected",
+        "timestamp": "2026-01-24 21:03"
+    },
+    {
+        "id": 16,
+        "author_id": "1172004951883522068",
+        "content": "Me gusta el l\u00edder guapo",
+        "attachment": null,
+        "status": "approved",
+        "timestamp": "2026-01-24 21:05"
+    },
+    {
+        "id": 17,
+        "author_id": "1461851339666624512",
+        "content": "Prueba 4 mensaje de prueba",
+        "attachment": null,
+        "status": "approved",
+        "timestamp": "2026-01-24 21:12"
+    }
+]

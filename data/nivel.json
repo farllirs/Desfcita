@@ -1,0 +1,76 @@
+{
+    "users": {
+        "1461851339666624512": {
+            "xp": 253,
+            "level": 11,
+            "messages": 184,
+            "partner": null
+        },
+        "1172004951883522068": {
+            "xp": 313,
+            "level": 6,
+            "messages": 110,
+            "partner": null
+        },
+        "1406332273187356692": {
+            "xp": 77,
+            "level": 6,
+            "messages": 103,
+            "partner": null
+        },
+        "1150530531453321236": {
+            "xp": 373,
+            "level": 2,
+            "messages": 14,
+            "partner": null
+        },
+        "1377178776156377120": {
+            "xp": 663,
+            "level": 6,
+            "messages": 110,
+            "partner": null
+        },
+        "1454467097038950444": {
+            "xp": 162,
+            "level": 2,
+            "messages": 10,
+            "partner": null
+        },
+        "1129230187062624338": {
+            "xp": 98,
+            "level": 1,
+            "messages": 2,
+            "partner": null
+        },
+        "1339445251382837351": {
+            "xp": 239,
+            "level": 3,
+            "messages": 19,
+            "partner": null
+        },
+        "1172331307318136929": {
+            "xp": 199,
+            "level": 3,
+            "messages": 21,
+            "partner": null
+        },
+        "1330330251410280459": {
+            "xp": 50,
+            "level": 1,
+            "messages": 1,
+            "partner": null
+        }
+    },
+    "settings": {
+        "levels_enabled": true,
+        "logs_channel": null,
+        "anti_raid": true,
+        "xp_cooldown": 15,
+        "xp_multiplier": 3.0,
+        "xp_min": 15,
+        "xp_max": 25,
+        "levelup_notifs": "channel",
+        "role_rewards": true,
+        "theme": "PURPLE"
+    }
+}

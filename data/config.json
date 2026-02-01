@@ -1,0 +1,191 @@
+{
+    "1461857419608064118": {
+        "welcome_channel": 1461878389064335410,
+        "leave_channel": 1461878433469563114,
+        "auto_role": 1461863342573621379
+    },
+    "welcome_channel": null,
+    "leave_channel": null,
+    "admin_roles": [],
+    "mod_roles": [],
+    "pais_channel": 1462683662888996938,
+    "pais_message": 1465991325739389185,
+    "announcement_channel": null,
+    "country_roles": {
+        "1461857419608064118": {
+            "colombia": 1462683715476914301,
+            "mexico": 1462687149190156454
+        }
+    },
+    "story_public_channel": "1465153564027392227",
+    "story_log_channel": "1462910145985253561",
+    "disabled_modules": [
+        "ayuda"
+    ],
+    "module_errors": {},
+    "updates_channel": 1463103799337029755,
+    "roblox": {
+        "1461857419608064118": {
+            "group_id": 33253682,
+            "group_link": "https://www.roblox.com/communities/33253682/",
+            "role_id": 1465997925602820106,
+            "configured_at": "2026-01-28T05:52:17.335115"
+        }
+    },
+    "verified_roblox": {
+        "1461851339666624512": {
+            "username": "ADRIAN_XD381",
+            "user_id": 4131499560,
+            "guild_id": 1461857419608064118,
+            "verified_at": "2026-01-28T06:11:14.081790",
+            "discord_name": "desf0072",
+            "discord_id": 1461851339666624512
+        }
+    },
+    "sugerencias": {
+        "1461857419608064118": {
+            "channel_id": 1466079381939294420,
+            "configured_at": "2026-01-28T10:15:18.429839",
+            "auto_delete": false,
+            "require_approval": false,
+            "min_reputation": 0,
+            "personalization": {
+                "titulo": "SUGERENCIAS • NODEX",
+                "subtitulo": "Todo con respeto si usas lenguaje inapropiado, automáticamente tu sugerencia se era eliminada y",
+                "emoji_like": "👍",
+                "emoji_dislike": "👎",
+                "footer": "SISTEMA DE SUGERENCIAS NODEX • DESFCITA :3",
+                "mensaje_central": "PUEDES DARNOS SUGERENCIAS PARA MEJORAR EL BOT/SERVER/FOLDER",
+                "pie_pagina": "SISTEMA DE SUGERENCIAS • NODEX",
+                "titulo_size": 36,
+                "subtitulo_size": 20,
+                "mensaje_size": 32,
+                "pasos_size": 18,
+                "footer_size": 14
+            },
+            "colors": {
+                "color_principal": 1710638,
+                "color_exito": 54527,
+                "color_error": 16711790,
+                "color_warning": 16761600
+            }
+        }
+    },
+    "suggestions": {
+        "1466080923421507626": {
+            "author": "desf0072",
+            "author_id": 1461851339666624512,
+            "guild_id": 1461857419608064118,
+            "categoria": "Test",
+            "texto": "Test",
+            "detalles": "Test",
+            "fecha": "2026-01-28T09:42:11.145015",
+            "mensaje_id": 1466080923421507626
+        },
+        "1466082103979544617": {
+            "author": "desf0072",
+            "author_id": 1461851339666624512,
+            "guild_id": 1461857419608064118,
+            "categoria": "-sugerencias-panel.",
+            "texto": "-sugerencias-panel.",
+            "detalles": "-sugerencias-panel.",
+            "fecha": "2026-01-28T09:46:52.436620",
+            "mensaje_id": 1466082103979544617
+        },
+        "1466082451712643139": {
+            "author": "desf0072",
+            "author_id": 1461851339666624512,
+            "guild_id": 1461857419608064118,
+            "categoria": "-reloadmod sugerenci",
+            "texto": "-reloadmod sugerencias",
+            "detalles": "-reloadmod sugerencias",
+            "fecha": "2026-01-28T09:48:15.313539",
+            "mensaje_id": 1466082451712643139
+        },
+        "1466089311769460798": {
+            "message_id": 1466089311769460798,
+            "author": "nose075_62371",
+            "author_id": 1377178776156377120,
+            "author_avatar": "https://cdn.discordapp.com/avatars/1377178776156377120/b5835593140e8bf3c2a58e343a60be72.png?size=1024",
+            "guild_id": 1461857419608064118,
+            "channel_id": 1466079381939294420,
+            "categoria": "Servidor",
+            "texto": "Que dew deje de chupar pollas negras xddddd",
+            "detalles": "Y que borre la cuenta de paso👀👀 xdddd",
+            "prioridad": "Alta",
+            "fecha": "2026-01-28T10:15:30.100349",
+            "votos": {
+                "positivos": 0,
+                "negativos": 0
+            },
+            "votantes": {
+                "positivos": [],
+                "negativos": []
+            },
+            "respuestas": [],
+            "estado": "activa"
+        },
+        "1466255026321232005": {
+            "message_id": 1466255026321232005,
+            "author": "desf0072",
+            "author_id": 1461851339666624512,
+            "author_avatar": "https://cdn.discordapp.com/avatars/1461851339666624512/77262a7d7e485ec622fedca54b054787.png?size=1024",
+            "guild_id": 1461857419608064118,
+            "channel_id": 1466079381939294420,
+            "categoria": "SERVER",
+            "texto": "Darle mod a davier",
+            "detalles": "Sin detalles adicionales",
+            "prioridad": "Baja",
+            "fecha": "2026-01-28T21:13:59.050448",
+            "votos": {
+                "positivos": 0,
+                "negativos": 0
+            },
+            "votantes": {
+                "positivos": [],
+                "negativos": []
+            },
+            "estado": "activa"
+        },
+        "1466277443831595071": {
+            "message_id": 1466277443831595071,
+            "author": "nose075_62371",
+            "author_id": 1377178776156377120,
+            "author_avatar": "https://cdn.discordapp.com/avatars/1377178776156377120/b5835593140e8bf3c2a58e343a60be72.png?size=1024",
+            "guild_id": 1461857419608064118,
+            "channel_id": 1466079381939294420,
+            "categoria": "Servidor",
+            "texto": "Que Nyx me chupe las bolas",
+            "detalles": "Que Nyx me chupe las bolas con su lengua",
+            "prioridad": "Alta",
+            "fecha": "2026-01-28T22:43:03.635927",
+            "votos": {
+                "positivos": 0,
+                "negativos": 0
+            },
+            "votantes": {
+                "positivos": [],
+                "negativos": []
+            },
+            "estado": "activa"
+        },
+        "7": {
+            "id": 7,
+            "guild_id": 1461857419608064118,
+            "author_id": 1461851339666624512,
+            "categoria": "~/Desfcita",
+            "texto": "~/Desfcita",
+            "detalles": "Sin detalles adicionales",
+            "prioridad": "Media",
+            "votos": {
+                "positivos": 0,
+                "negativos": 0
+            },
+            "fecha": "2026-01-31T00:07:16.877754",
+            "mensaje_id": 1467023411195940924,
+            "canal_id": 1466079381939294420
+        }
+    },
+    "pending_reload": "ayuda",
+    "reload_timestamp": "2026-01-31T22:05:50.063040"
+}
