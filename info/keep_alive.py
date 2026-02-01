@@ -1,13 +1,23 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, redirect, session
 from threading import Thread
+import os
 
 app = Flask(__name__)
+app.secret_key = os.getenv('FLASK_SECRET_KEY', os.urandom(24).hex())
 
 # Importar páginas
 from info.pages.terms import TERMS_HTML
 from info.pages.privacy import PRIVACY_HTML
 from info.pages.verify import VERIFY_HTML
 from info.pages.interactions import INTERACTIONS_PAGE_HTML
+from info.pages.callback import render_success, render_error
+
+# Importar OAuth2 oficial
+from info.discord_oauth import (
+    get_oauth_url, exchange_code, get_user_info, 
+    get_user_avatar_url, update_role_connection,
+    PUBLIC_KEY, verify_discord_signature
+)
 
 @app.route("/")
 def home():
@@ -582,21 +592,147 @@ def terms():
 def privacy():
     return PRIVACY_HTML
 
+# ══════════════════════════════════════════════════════════════════════════════
+# 🔐 OAUTH2 - LINKED ROLES VERIFICATION (OFICIAL)
+# ══════════════════════════════════════════════════════════════════════════════
+
 @app.route("/verify")
 @app.route("/verify-user")
 def verify():
-    return VERIFY_HTML
+    """Iniciar flujo OAuth2 para verificación de Linked Roles"""
+    # Redirigir a Discord OAuth2
+    oauth_url = get_oauth_url()
+    return redirect(oauth_url)
+
+@app.route("/callback")
+def oauth_callback():
+    """Callback de OAuth2 - Procesar autorización"""
+    code = request.args.get('code')
+    error = request.args.get('error')
+    
+    if error:
+        return render_error(f"Autorización denegada: {error}")
+    
+    if not code:
+        return render_error("No se recibió código de autorización")
+    
+    # Intercambiar código por tokens
+    tokens = exchange_code(code)
+    if not tokens:
+        return render_error("Error al obtener tokens de acceso")
+    
+    access_token = tokens.get('access_token')
+    
+    # Obtener información del usuario
+    user_data = get_user_info(access_token)
+    if not user_data:
+        return render_error("Error al obtener información del usuario")
+    
+    # Actualizar Linked Roles
+    from datetime import datetime
+    metadata = {
+        'verified': True,
+        'member_since': datetime.utcnow().isoformat() + 'Z',
+        'level': 1
+    }
+    
+    update_role_connection(
+        access_token=access_token,
+        platform_name='DESFCITA Bot',
+        platform_username=user_data.get('username', 'Usuario'),
+        metadata=metadata
+    )
+    
+    # Obtener avatar
+    avatar_url = get_user_avatar_url(user_data)
+    
+    return render_success(user_data, avatar_url)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ⚡ INTERACTIONS ENDPOINT (OFICIAL CON VERIFICACIÓN DE FIRMA)
+# ══════════════════════════════════════════════════════════════════════════════
 
 @app.route("/api/interactions", methods=['GET', 'POST'])
 def interactions():
+    """Endpoint oficial de Interactions de Discord"""
     if request.method == 'GET':
         return INTERACTIONS_PAGE_HTML
     
+    # Verificar firma de Discord (si hay PUBLIC_KEY configurada)
+    if PUBLIC_KEY:
+        signature = request.headers.get('X-Signature-Ed25519')
+        timestamp = request.headers.get('X-Signature-Timestamp')
+        
+        if signature and timestamp:
+            try:
+                from nacl.signing import VerifyKey
+                from nacl.exceptions import BadSignature
+                
+                verify_key = VerifyKey(bytes.fromhex(PUBLIC_KEY))
+                body = request.data.decode('utf-8')
+                message = timestamp.encode() + body.encode()
+                
+                verify_key.verify(message, bytes.fromhex(signature))
+            except Exception:
+                return jsonify({'error': 'Invalid signature'}), 401
+    
     data = request.json
-    if data and data.get('type') == 1:
+    if not data:
+        return jsonify({'error': 'No data'}), 400
+    
+    # Tipo 1: PING - Discord verifica el endpoint
+    if data.get('type') == 1:
         return jsonify({'type': 1})
     
-    return jsonify({'type': 4, 'data': {'content': '💖 DESFCITA Bot está procesando...'}})
+    # Tipo 2: APPLICATION_COMMAND - Slash commands
+    if data.get('type') == 2:
+        command_name = data.get('data', {}).get('name', '')
+        return jsonify({
+            'type': 4,
+            'data': {
+                'content': f'💖 Comando `/{command_name}` recibido por DESFCITA Bot ✨',
+                'flags': 64  # Ephemeral
+            }
+        })
+    
+    # Tipo 3: MESSAGE_COMPONENT - Botones, selects, etc.
+    if data.get('type') == 3:
+        return jsonify({
+            'type': 4,
+            'data': {
+                'content': '💕 Interacción procesada por DESFCITA Bot 🌸',
+                'flags': 64
+            }
+        })
+    
+    # Tipo 5: MODAL_SUBMIT
+    if data.get('type') == 5:
+        return jsonify({
+            'type': 4,
+            'data': {
+                'content': '✨ Formulario recibido correctamente 💖',
+                'flags': 64
+            }
+        })
+    
+    return jsonify({'type': 1})
+
+# ══════════════════════════════════════════════════════════════════════════════
+# 🔧 ADMIN ENDPOINTS
+# ══════════════════════════════════════════════════════════════════════════════
+
+@app.route("/api/register-metadata", methods=['POST'])
+def register_metadata_route():
+    """Registrar metadata de Linked Roles (llamar una vez)"""
+    from info.discord_oauth import register_metadata
+    
+    success, message = register_metadata()
+    return jsonify({'success': success, 'message': message})
+
+@app.route("/health")
+def health():
+    """Health check para Render"""
+    return jsonify({'status': 'ok', 'bot': 'DESFCITA'})
 
 def run():
     app.run(host="0.0.0.0", port=10000)
